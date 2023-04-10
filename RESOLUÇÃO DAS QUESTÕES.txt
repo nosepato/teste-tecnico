@@ -1,0 +1,66 @@
+1) Observe o trecho de código abaixo:
+
+int INDICE = 13, SOMA = 0, K = 0;
+
+enquanto K < INDICE faça
+
+{
+
+K = K + 1;
+
+SOMA = SOMA + K;
+
+}
+
+imprimir(SOMA);
+
+
+
+Ao final do processamento, qual será o valor da variável SOMA?
+
+RESULTADO: 91
+
+
+3) Descubra a lógica e complete o próximo elemento:
+
+
+
+a) 1, 3, 5, 7, RESULTADO: 9 (a cada número soma 2)
+
+b) 2, 4, 8, 16, 32, 64, RESULTADO: 128 (a cada número multiplica por 2)
+
+c) 0, 1, 4, 9, 16, 25, 36, RESULTADO: 49 (cada número é igual ao quadrado do seu índice)
+
+d) 4, 16, 36, 64, RESULTADO: 100 (cada número é o quadrado perfeito da sequência de números pares)
+
+e) 1, 1, 2, 3, 5, 8, RESULTADO: 13 (cada número é a soma dos dois números anteriores)
+
+f) 2,10, 12, 16, 17, 18, 19, RESULTADO: não sei
+
+
+4 - Dois veículos (um carro e um caminhão) saem respectivamente de cidades opostas pela mesma rodovia. O carro de Ribeirão Preto em direção a Franca, a uma velocidade constante de 110 km/h e o caminhão de Franca em direção a Ribeirão Preto a uma velocidade constante de 80 km/h. Quando eles se cruzarem na rodovia, qual estará mais próximo a cidade de Ribeirão Preto?
+
+
+IMPORTANTE:
+
+a) Considerar a distância de 100km entre a cidade de Ribeirão Preto <-> Franca.
+
+b) Considerar 2 pedágios como obstáculo e que o caminhão leva 5 minutos a mais para passar em cada um deles e o carro possui tag de pedágio (Sem Parar)
+
+c) Explique como chegou no resultado.
+
+EXPLICAÇÃO: Usando a fórmula de distância -> velocidade x tempo
+
+Tempo do carro: 100 km / 110 km/h = 0,909 horas
+
+Tempo do caminhão: 100 km / 80 km/h = 1,25 horas
+
+Calculo da distância que cada veículo percorreu até o ponto de encontro:
+
+Distância percorrida pelo carro: 110 km/h x 0,909 h = 99,99 km (sem obstáculos)
+
+Distância percorrida pelo caminhão: 80 km/h x 1,25 h = 100 km + 5 km (por conta dos pedágios)
+
+RESULTADO: 
+O caminhão percorreu 105 km até o ponto de encontro. Portanto, o carro está mais próximo da cidade de Ribeirão Preto, já que ele percorreu praticamente a distância entre as duas cidades (100 km) até o ponto de encontro, enquanto o caminhão percorreu 105 km, assim é concluido que o carro está mais próximo da cidade de Ribeirão Preto no momento em que eles se cruzam na rodovia. 
+
